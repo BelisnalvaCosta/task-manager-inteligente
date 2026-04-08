@@ -5,17 +5,20 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 ## ✨ Características Principais
 
 ### 🎯 CRUD Completo
+
 - ✅ Criar, editar, visualizar e deletar tarefas
 - 📝 Campos: Título, Descrição, Prioridade, Prazo, Responsável, Categoria
 - 🏷️ Categorização automática de tarefas
 
 ### 🤖 Sistema de IA
+
 - ✨ **Sugestão Automática de Prioridade** baseada em análise de texto
 - 📊 Análise de sentimento simples
 - ⏰ Estimativa de tempo baseada em descrição
 - 🎯 Palavras-chave contextuais para priorização inteligente
 
 ### 📊 Dashboard Inteligente
+
 - 📈 Gráficos interativos (Chart.js)
 - 📌 KPIs em tempo real:
   - Total de tarefas
@@ -25,24 +28,28 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 - 🎨 Visuais por prioridade (🔴 Alta | 🟡 Média | 🟢 Baixa)
 
 ### 🔍 Filtros e Busca
+
 - 🔎 Busca dinâmica por título, descrição ou responsável
 - 📌 Filtro por status: Concluído, Em Andamento, Atrasado
 - 🎯 Filtro por prioridade
 - ⚡ Atualização em tempo real
 
 ### 📱 Suporte Offline
+
 - 💾 Sincronização automática com localStorage
 - 🌐 Modo offline/online detectado automaticamente
 - 🔄 Sincronização com backend quando disponível
 - 📊 Merge inteligente de dados (local + servidor)
 
 ### 🎨 Design Responsivo
+
 - 📱 Mobile-first approach
 - 💻 Desktop, Tablet e Mobile otimizados
 - 🌈 Interface moderna e intuitiva
 - ⚡ Animações suaves
 
 ### 🔐 Persistência de Dados
+
 - **Frontend**: localStorage para dados locais
 - **Backend**: Node.js + Express + SQLite
 - 🔄 Sincronização bidirecional
@@ -50,6 +57,7 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 ## 🛠️ Tecnologias Utilizadas
 
 ### Frontend
+
 - 🌐 **HTML5** - Estrutura semântica
 - 🎨 **CSS3** - Styling responsivo e animations
 - ⚙️ **JavaScript Vanilla** - Sem dependências externas (exceto Chart.js)
@@ -57,6 +65,7 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 - 💾 **localStorage API** - Persistência local
 
 ### Backend
+
 - 🚀 **Node.js** - Runtime JavaScript
 - ⚡ **Express.js** - Framework web
 - 🗄️ **SQLite3** - Banco de dados leve
@@ -64,6 +73,7 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 - 📦 **npm** - Gerenciador de pacotes
 
 ### DevOps
+
 - 🔄 **Git** - Versionamento
 - 📦 **npm** - Dependências
 - 🚀 **nodemon** - Auto-reload em desenvolvimento
@@ -71,24 +81,28 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 ## 📸 Screenshots
 
 ### Dashboard
+
 ![Dashboard Screenshot](screenshots/dashboard.png)
 - KPIs com indicadores visuais
 - Gráficos de Status e Prioridades
 - Estatísticas de conclusão
 
 ### Gerenciar Tarefas
+
 ![Tasks Screenshot](screenshots/tasks.png)
 - Cards de tarefas com status visual
 - Filtros dinâmicos
 - Ações rápidas (editar, deletar, alternar status)
 
 ### Criar/Editar Tarefa
+
 ![Create Task Screenshot](screenshots/create-task.png)
 - Formulário intuitivo
 - Sugestão de prioridade por IA
 - Validação em tempo real
 
 ### Modo Offline
+
 ![Offline Mode](screenshots/offline-mode.png)
 - Indicador de sincronização
 - Alternância entre online/offline
@@ -97,6 +111,7 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 ## 🚀 Como Executar
 
 ### Pré-requisitos
+
 - 🟢 Node.js 14+ instalado
 - 📦 npm ou yarn
 - 🌐 Navegador moderno
@@ -138,6 +153,7 @@ http://localhost:3000
 ## 📋 API Endpoints
 
 ### Tasks
+
 ```
 GET    /api/tasks           # Listar todas as tarefas
 GET    /api/tasks/:id       # Obter tarefa específica
@@ -147,6 +163,7 @@ DELETE /api/tasks/:id       # Deletar tarefa
 ```
 
 ### Exemplo: Criar Tarefa
+
 ```bash
 curl -X POST http://localhost:3000/api/tasks \
   -H "Content-Type: application/json" \
@@ -168,6 +185,7 @@ curl -X POST http://localhost:3000/api/tasks \
 A IA analisa a descrição da tarefa e procura por palavras-chave contextuais:
 
 #### 🔴 Prioridade Alta
+
 Palavras como: `urgente`, `crítico`, `bug`, `erro`, `quebrado`, `emergência`, `crash`, `falha`
 
 **Exemplo:**
@@ -177,6 +195,7 @@ Palavras como: `urgente`, `crítico`, `bug`, `erro`, `quebrado`, `emergência`, 
 ```
 
 #### 🟡 Prioridade Média
+
 Palavras como: `importante`, `melhorar`, `feature`, `problema`, `implementar`, `esta semana`
 
 **Exemplo:**
@@ -186,6 +205,7 @@ Palavras como: `importante`, `melhorar`, `feature`, `problema`, `implementar`, `
 ```
 
 #### 🟢 Prioridade Baixa
+
 Palavras como: `futuro`, `depois`, `documentação`, `refactor`, `estético`, `eventualmente`
 
 **Exemplo:**
@@ -195,6 +215,7 @@ Palavras como: `futuro`, `depois`, `documentação`, `refactor`, `estético`, `e
 ```
 
 ### Análise Adicional
+
 - 📊 Análise de sentimento (negativo/positivo)
 - ⏰ Estimativa de tempo baseada em descrição
 - 🎯 Contexto da tarefa
@@ -238,23 +259,27 @@ task-manager-inteligente/
 ## 🌟 Diferenciais
 
 ### ✨ IA Integrada
+
 - Sugestão inteligente de prioridade
 - Análise de contexto do texto
 - Estimativa de tempo automática
 - Melhoria contínua (pode ser expandida)
 
 ### 🔄 Sincronização Offline-First
+
 - Funciona completamente offline
 - Sincronização automática quando online
 - Merge inteligente de conflitos
 - Sem perda de dados
 
 ### 📱 Progressive Web App Ready
+
 - Estrutura preparada para service workers
 - Offline-first architecture
 - Responsivo em todos dispositivos
 
 ### 🎨 UX/UI Moderna
+
 - Design clean e profissional
 - Animações suaves
 - Feedback visual em tempo real
@@ -281,7 +306,7 @@ MIT - Sinta-se livre para usar em seus projetos!
 
 **Belisnal Costa**
 - 🔗 GitHub: [@BelisnalvaCosta](https://github.com/BelisnalvaCosta)
-- 📧 Email: seu-email@example.com
+- 📧 Email: bella-costa@hotmail.com.br
 
 ## 🤝 Contribuindo
 
@@ -292,6 +317,7 @@ Contribuições são bem-vindas! Por favor:
 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
+6. Não esqueça de dar uma estrela
 
 ## ❓ FAQ
 
