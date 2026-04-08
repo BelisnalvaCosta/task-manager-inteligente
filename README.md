@@ -88,29 +88,27 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 ### Dashboard
 
 <img width="808" height="275" alt="dashboard" src="https://github.com/user-attachments/assets/65710ee8-b15b-4779-8041-e7e15b71ef86" />
-
-![Dashboard Screenshot](screenshots/dashboard.png)
 - KPIs com indicadores visuais
 - Gráficos de Status e Prioridades
 - Estatísticas de conclusão
 
 ### Gerenciar Tarefas
 
-![Tasks Screenshot](screenshots/tasks.png)
+<img width="808" height="232" alt="tasks" src="https://github.com/user-attachments/assets/1322d77a-4713-4290-9711-26244d552974" />
 - Cards de tarefas com status visual
 - Filtros dinâmicos
 - Ações rápidas (editar, deletar, alternar status)
 
 ### Criar/Editar Tarefa
 
-![Create Task Screenshot](screenshots/create-task.png)
+<img width="810" height="269" alt="create-task" src="https://github.com/user-attachments/assets/ce1557ae-bd95-4ee1-bce1-b3d18843b82a" />
 - Formulário intuitivo
 - Sugestão de prioridade por IA
 - Validação em tempo real
 
 ### Modo Offline
 
-![Offline Mode](screenshots/offline-mode.png)
+<img width="811" height="286" alt="offline-mode" src="https://github.com/user-attachments/assets/851243e2-559b-45a0-a1d8-e91f4ed68bf8" />
 - Indicador de sincronização
 - Alternância entre online/offline
 - Sincronização automática
