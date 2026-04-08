@@ -302,7 +302,7 @@ task-manager-inteligente/
 
 MIT - Sinta-se livre para usar em seus projetos!
 
-## 👨‍💻 Autor
+## 👨‍💻 Autora
 
 **Belisnal Costa**
 - 🔗 GitHub: [@BelisnalvaCosta](https://github.com/BelisnalvaCosta)
