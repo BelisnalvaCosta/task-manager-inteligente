@@ -21,7 +21,8 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 
 ### 📊 Dashboard Inteligente
 
-<img width="479" height="317" alt="dashboard-task" src="https://github.com/user-attachments/assets/b9ebcefe-b4a4-41f9-a156-c5bfdd85ab76" />
+<img width="479" height="317" alt="image" src="https://github.com/user-attachments/assets/7bf66118-5e28-47ae-bd94-67494667aa89" />
+
 
 - 📈 Gráficos interativos (Chart.js)
 - 📌 KPIs em tempo real:
