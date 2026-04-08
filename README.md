@@ -87,7 +87,7 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 
 ### Dashboard
 
-![Dashboard Screenshot](<img width="808" height="275" alt="dashboard" src="https://github.com/user-attachments/assets/65710ee8-b15b-4779-8041-e7e15b71ef86" />)
+<img width="808" height="275" alt="dashboard" src="https://github.com/user-attachments/assets/65710ee8-b15b-4779-8041-e7e15b71ef86" />
 
 ![Dashboard Screenshot](screenshots/dashboard.png)
 - KPIs com indicadores visuais
