@@ -2,6 +2,8 @@
 
 Uma aplicação web moderna para gerenciamento de tarefas com inteligência artificial integrada, suporte offline e sincronização em tempo real.
 
+![My-task-manager]<img width="512" height="328" alt="minhas-task-manager" src="https://github.com/user-attachments/assets/559e5c12-672e-44eb-886f-c63e016692f0" />
+
 ## ✨ Características Principais
 
 ### 🎯 CRUD Completo
@@ -18,6 +20,8 @@ Uma aplicação web moderna para gerenciamento de tarefas com inteligência arti
 - 🎯 Palavras-chave contextuais para priorização inteligente
 
 ### 📊 Dashboard Inteligente
+
+![Dashboard]<img width="479" height="317" alt="dashboard-task" src="https://github.com/user-attachments/assets/b9ebcefe-b4a4-41f9-a156-c5bfdd85ab76" />
 
 - 📈 Gráficos interativos (Chart.js)
 - 📌 KPIs em tempo real:
